@@ -41,6 +41,7 @@ body{
     background: -webkit-linear-gradient(bottom, rgba(34, 34, 34, 0.85) 30.64, rgba(38, 38, 38, 0) 81.78);
     background: -o-linear-gradient(bottom, rgba(34, 34, 34, 0.85) 30.64, rgba(38, 38, 38, 0) 81.78);
     background: linear-gradient(to top, rgba(34, 34, 34, 0.85) 30.64, rgba(38, 38, 38, 0) 81.78);
+    background: linear-gradient(0deg, rgba(34, 34, 34, 0.85) 30.64%, rgba(38, 38, 38, 0) 81.78%);
 }
 .news__title h2{
 	line-height: 24px;
@@ -134,5 +135,4 @@ body{
 		font-size: 12px;
 		color: #333333;
 	}
-
 }
