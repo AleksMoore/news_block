@@ -30,6 +30,10 @@ body{
 	height: 196px;
 	position: relative;
 }
+.news__image{
+	border-radius: 4px;
+	overflow: hidden;
+}
 .news__image img{
 	width: 100%;
 }
@@ -42,6 +46,7 @@ body{
     background: -o-linear-gradient(bottom, rgba(34, 34, 34, 0.85) 30.64, rgba(38, 38, 38, 0) 81.78);
     background: linear-gradient(to top, rgba(34, 34, 34, 0.85) 30.64, rgba(38, 38, 38, 0) 81.78);
     background: linear-gradient(0deg, rgba(34, 34, 34, 0.85) 30.64%, rgba(38, 38, 38, 0) 81.78%);
+    border-radius: 4px;
 }
 .news__title h2{
 	line-height: 24px;
@@ -109,8 +114,6 @@ body{
 		width: 100px;
 		height: 100px;
 		margin-right: 12px;
-		border-radius: 4px;
-		overflow: hidden;
 		position: relative;
 	}
 	.news__image img{
