@@ -23,7 +23,6 @@ body{
 	justify-content: space-between;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-
 }
 .news__item{
 	width: 273px;
@@ -35,6 +34,7 @@ body{
 	overflow: hidden;
 }
 .news__image img{
+	border-radius: 4px;
 	width: 100%;
 }
 .news__title{
@@ -61,6 +61,8 @@ body{
 	color: #fff;
 	margin: 0;
 }
+
+/* Adaptive styles */
 
 @media screen and (max-width:1200px){
 
